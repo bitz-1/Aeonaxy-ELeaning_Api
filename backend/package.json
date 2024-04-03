@@ -11,12 +11,14 @@
   "author": "Apurv Nandgaonkar",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
     "cookie-session": "^2.1.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "neonctl": "^1.28.0",
     "nodemon": "^3.1.0",
-    "passport": "^0.7.0",
-    "passport-jwt": "^4.0.1",
     "pg": "^8.11.4",
     "resend": "^3.2.0"
   }
