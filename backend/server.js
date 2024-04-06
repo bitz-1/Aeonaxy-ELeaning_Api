@@ -1,5 +1,9 @@
 //modules 
 const express = require('express');
+const cors = require('cors');
+const fileUpload = require('express-fileupload');
+const morgan  = require('morgan');
+// const path = require ('path');  
 // const cookieSession = require('cookie-session');
 const resend = require('resend');
 const bodyParser = require('body-parser');
@@ -8,19 +12,29 @@ require('dotenv').config();
 require('../backend/src/config/poolNeonDB');
 const authRoutes = require('./src/routes/authRoutes')
 
+
 //server Initializationo
 const app = express();
 const PORT = process.env.PORT;
 
-//middleware
-
+app.use(morgan('dev'));
 app.use(bodyParser.json());
+app.use(cors());
+app.use(fileUpload({
+    tempFileDir: "tmp",
+    useTempFiles: true,
+    preserveExtension: 12,
+    safeFileNames: true,
+}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
-app.use('/api',authRoutes);
+//middleware
+app.use('/',authRoutes);
 
 app.get('/', (req, res)=>{
     res.send("Aeonaxy-Api");
+
 }); 
 // example route to test the database 
 // app.get('/api', async (req, res)=>{
