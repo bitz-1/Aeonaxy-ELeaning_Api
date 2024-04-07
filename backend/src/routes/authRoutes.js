@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const {registerUser,login, verifyToken, updateUserProfile, getUserInfo } = require ("../controllers/authUser");
-// const{connect} = require('../config/poolNeonDB');
-const cloud = require('../config/cloudinary');
-const bcrypt = require('bcrypt');
+const apiRoutes = require('./apiRoutes')
+ 
+
 
 
 
@@ -18,6 +18,7 @@ router.post('/login', async(req,res)=>{
 router.get('/profile',verifyToken,getUserInfo);
 
 router.post('/profile/update',verifyToken,updateUserProfile);
-    
+
+router.use('/api',verifyToken,apiRoutes);
 
 module.exports = router;

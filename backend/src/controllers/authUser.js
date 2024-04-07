@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const {connect} = require('../config/poolNeonDB');
 const bcrypt = require('bcrypt');
 const cloud= require('../config/cloudinary');
-
+ 
 // Define the registration function
 async function registerUser(req, res) {
     const client = await connect();

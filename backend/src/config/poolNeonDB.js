@@ -1,5 +1,6 @@
 const { Pool } = require("pg");
 const schemaScriptPg = require("../models/schemaPg");
+const schemaCourse = require('../models/schemaCourse');
 require('dotenv').config();
 
 let {PGHOST,PGDATABASE,PGUSER,PGPASSWORD} = process.env;
@@ -31,20 +32,41 @@ async function createSchema(){
         const result = await client.query("SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_name = 'users');");
         const tableExists = result.rows[0].exists;
         if (tableExists) {
-            console.log('Schema Already Exists');
+            console.log('Users schema Already Exists');
 
         }else {
         await client.query(schemaScriptPg);
-        console.log('Schema Created successfully');
+        console.log('Users schema Created successfully');
         }
     }catch(error){
-        console.error('Error creating the schema');
+        console.error('Error creating the users schema');
     }finally {
         client.release();
     }
 }
 createSchema();
 
+async function createCourseSchema() {
+    const client = await pool.connect();
+    try{
+        const result = await client.query("SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_name = 'courses');");
+        const tableExists = result.rows[0].exists;
+        if (tableExists) {
+            console.log('Course schema Already Exists');
+
+        }else {
+        await client.query(schemaCourse);
+        console.log('Course schema Created successfully');
+        }
+    }catch(error){
+        console.error('Error creating the Course schema');
+    }finally {
+        client.release();
+    }
+
+}
+
+createCourseSchema();
 
 async function getPg(){
     const client = await pool.connect();
