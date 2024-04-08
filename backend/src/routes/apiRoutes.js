@@ -1,16 +1,18 @@
 const express = require('express');
-const {courseApi,createCourse} = require('../controllers/coursesApi');
+const {createCourse, getCoursesAll, updateCourse, getCourseById, deleteCourse} = require('../controllers/coursesApi');
 const router = express.Router();
-router.get('/courses',courseApi);
+
+
+
+router.get('/courses',getCoursesAll);
+
+router.get('/courses/course',getCourseById);
 
 router.post('/courses',createCourse);
 
-router.put('/courses/:id', (req, res) => {
-    // Logic to update an existing course
-});
+router.put('/courses/:id',updateCourse);
 
-router.delete('/courses/:id',  (req, res) => {
-    // Logic to delete an existing course
-});
+router.delete('/courses/:id',deleteCourse );
 
 module.exports = router;
+
