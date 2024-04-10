@@ -4,8 +4,8 @@
 Apurv Nandgaonkar  
 Email: apurv.mod007@gmail.com
 
-[Link](https://aeonaxy-eleaning-api.onrender.com)
-[Link](https://aeonaxy.bitzdev.tech)
+hosted live - https://aeonaxy-eleaning-api.onrender.com
+hosted live - https://aeonaxy.bitzdev.tech
 
 
 ## Project Overview
