@@ -4,6 +4,10 @@
 Apurv Nandgaonkar  
 Email: apurv.mod007@gmail.com
 
+[Link text](https://aeonaxy-eleaning-api.onrender.com)
+[Link text](https://aeonaxy.bitzdev.tech)
+
+
 ## Project Overview
 The Aeonaxy project aims to develop the backend API for an E-Learning platform. The API provides functionalities for user authentication, user profile management including profile picture update, end-to-end authentication with JWT, email uniqueness validation, and user enrollment in courses. Additionally, CRUD operations for courses are available, with only admin users having permission to perform these operations. The API integrates with a PostgreSQL database for data storage, Resend for email integration, Bcrypt for password hashing, Cloudinary for image upload, and Winston and Morgan for logging. Filters and pagination are implemented to enhance the search experience for users.
 
