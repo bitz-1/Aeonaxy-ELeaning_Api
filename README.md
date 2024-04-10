@@ -19,6 +19,7 @@ The Aeonaxy project aims to develop the backend API for an E-Learning platform. 
 - **Neon.js**: PostgreSQL database integration
 - **Resend**: Email integration for sending notifications
 - **Bcrypt**: Password hashing for security
+-- **JWT** : for token generator Authorization for routes 
 - **Cloudinary**: Image upload service for user profile pictures
 - **Winston and Morgan**: Logging and request/response logging
 
