@@ -7,7 +7,7 @@ Email: apurv.mod007@gmail.com
 project submitted - 10-04-24
 
 hosted live - https://aeonaxy-eleaning-api.onrender.com
-hosted live - https://aeonaxy.bitzdev.tech
+
 
 
 ## Project Overview
