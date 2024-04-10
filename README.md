@@ -1,54 +1,73 @@
-# NodeJs Backend Developer Project
+# Aeonaxy E-Learning Platform API
 
-**Project Deadline:** April 10th
+## Developer
+Apurv Nandgaonkar  
+Email: apurv.mod007@gmail.com
 
-**Deadline Exemption in Case of Exams:** If you have ongoing exams, you can submit the project until April 20th. In this case, you won’t be able to submit the project on Internshala. Please send it directly to **support@aeonaxy.com** , with the subject "Project Submission". Your email must include the GitHub URL, project URL, and live site URL.
+## Project Overview
+The Aeonaxy project aims to develop the backend API for an E-Learning platform. The API provides functionalities for user authentication, user profile management including profile picture update, end-to-end authentication with JWT, email uniqueness validation, and user enrollment in courses. Additionally, CRUD operations for courses are available, with only admin users having permission to perform these operations. The API integrates with a PostgreSQL database for data storage, Resend for email integration, Bcrypt for password hashing, Cloudinary for image upload, and Winston and Morgan for logging. Filters and pagination are implemented to enhance the search experience for users.
 
-**What We Look for in the Project:**
+## Tech Stack
+- **Node.js**: Backend framework
+- **Express.js**: Web framework for Node.js
+- **Neon.js**: PostgreSQL database integration
+- **Resend**: Email integration for sending notifications
+- **Bcrypt**: Password hashing for security
+- **Cloudinary**: Image upload service for user profile pictures
+- **Winston and Morgan**: Logging and request/response logging
 
-- Well-structured code
-- How db schema is designed
-- How apis have been designed
+- backend
+  - src
+    - config
+      - cloudinary.js
+      - neonDB.js
+      - logger.js
+    - controllers
+      - authUser.js
+      - coursesApi.js
+      - enrollments.js
+    - models
+      - schemaCourse.js
+      - schemaPg.js
+    - routes
+      - apiRoutes.js
+      - authRoutes.js
+    - email
+      - welcome_email.html
+      - enrolled_email.html
+    - server.js
+  - package.json
+  -.env
+  - tmp (temporary directory)
 
-## Project Overview:
+  
+---
 
-The goal of this project is to develop a robust backend API for an e-learning platform. The API will facilitate user registration, user profile management, course management (including CRUD operations for superadmin), and user enrollment functionalities. Additionally, the courses API will implement filtering and pagination to enhance user experience. The project will utilize the free tier of neon.tech database for data storage and [resend.com](http://resend.com/)'s free tier for handling email communications.
+## API Endpoints
+### Authentication
+- `POST /register`: Register a new user
+- `POST /login`: User login
+- `POST /admin`: Assign admin role to a user
+- `GET /profile`: Get user profile
+- `POST /profile/update`: Update user profile
 
-## Project Requirements:
+### Courses
+- `GET /api/courses`: Get all courses
+- `GET /api/courses/course`: Get course by ID
+- `POST /api/courses/create`: Create a new course
+- `PUT /api/courses/:id`: Update course by ID
+- `DELETE /api/courses/:id`: Delete course by ID
 
-1. **User APIs**:
-    - User Registration: Allow users to register by providing necessary details such as name, email, and password. Implement validation for email uniqueness and password strength.
-    - User Profile: Enable users to view and update their profile information, including name, email, profile picture, and any other relevant details.
-2. **Course APIs**:
-    - Get Courses: Provide an API endpoint to fetch courses available on the platform. Implement filtering options based on parameters such as category, level, popularity, etc. Enable pagination to handle large datasets efficiently.
-    - CRUD Operations for Superadmin: Implement Create, Read, Update, and Delete operations for courses. Only superadmin users should have permission to perform these operations.
-3. **User Enrollment APIs**:
-    - Course Enrollment: Allow users to enroll in courses they are interested in. Implement validation to ensure users can't enroll in the same course multiple times.
-    - View Enrolled Courses: Provide an API endpoint for users to view the courses they have enrolled in.
-4. **Filters and Pagination**:
-    - Implement filtering options for the courses API to enable users to refine their search based on criteria such as category, level, etc.
-    - Enable pagination to limit the number of results returned per request and improve performance when dealing with large datasets.
-5. **Database and Email Integration**:
-    - Utilize the free tier of neon.tech database for storing user information, course details, and enrollment data.
-    - Integrate with resend.com's free tier for handling email communications, such as user registration confirmation, password reset requests, and course enrollment notifications.
-6. **Security and Authentication**:
-    - Implement secure authentication mechanisms, such as JWT (JSON Web Tokens), to authenticate users for accessing protected endpoints.
-    - Ensure sensitive data, such as passwords, is securely hashed before storage in the database.
-7. **Error Handling and Logging**:
-    - Implement robust error handling mechanisms to provide meaningful error messages to clients.
-    - Utilize logging to track API requests, responses, and any potential errors or exceptions for debugging purposes.
+### Enrollments
+- `POST /api/enrollments`: Enroll in courses
+- `GET /api/enrollments`: Get enrolled courses
 
-For Database you can use https://neon.tech/  free tier,  and for emails you can use [https://resend.com/](https://resend.com/pricing)  free tier plan.  For real time profile image upload you can use https://cloudinary.com/  free tier plan. 
+---
 
-**AI Tools:**  You can also utilize AI tools if required:
+## Usage
+1. Install dependencies: `npm install`
+2. Start the server: `npm run dev`
 
-- https://claude.ai/
-- [OpenAI Chat](https://chat.openai.com/)
+---
 
-## Project Submission:
-
-Please send it directly to **support@aeonaxy.com** , with the subject "Project Submission". Your email must include the GitHub URL.
-
-**For Urgent Inquiries:**
-
-In case of any urgent inquiries, please contact **support@aeonaxy.com**
+This README provides an overview of the Aeonaxy E-Learning Platform API, including the project structure, tech stack, API endpoints, and usage instructions. For more detailed information, please refer to the project files and codebase.
