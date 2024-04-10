@@ -3,21 +3,24 @@ const express = require('express');
 const cors = require('cors');
 const fileUpload = require('express-fileupload');
 const morgan  = require('morgan');
-// const path = require ('path');  
-// const cookieSession = require('cookie-session');
-const resend = require('resend');
 const bodyParser = require('body-parser');
-// const {getPg} = require('./src/config/neonDB');
+const fs = require('fs');
 require('dotenv').config();
 require('../backend/src/config/poolNeonDB');
 const authRoutes = require('./src/routes/authRoutes')
+const path = require('path');
 
 
 //server Initializationo
 const app = express();
 const PORT = process.env.PORT;
 
-app.use(morgan('dev'));
+// Create a write stream (in append mode)
+const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'), { flags: 'a' });
+
+
+// Logging middleware
+app.use(morgan('combined', { stream: accessLogStream }));
 app.use(bodyParser.json());
 app.use(cors());
 app.use(fileUpload({

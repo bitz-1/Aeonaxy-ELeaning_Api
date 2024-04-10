@@ -23,6 +23,7 @@ module.exports = {
         } catch (error) {
             console.error('Error connecting to database:', error);
             throw error;
+            
         }
     }
 };

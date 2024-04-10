@@ -1,0 +1,128 @@
+{"level":"info","message":"Registering user: bitztech-dev, BitzTech Dev, bitztechdev@gmail.com","timestamp":"2024-04-10T08:49:32.825Z"}
+{"level":"info","message":"User registered successfully.","timestamp":"2024-04-10T08:49:33.010Z"}
+{"level":"info","message":"Welcome email sent.","timestamp":"2024-04-10T08:49:33.673Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:00:47.339Z"}
+{"level":"warn","message":"Access Denied! Missing Token.","timestamp":"2024-04-10T10:00:47.341Z"}
+{"level":"info","message":"Registering user: bitztech-dev, BitzTech Dev, bitztechdev@gmail.com","timestamp":"2024-04-10T10:02:41.732Z"}
+{"level":"info","message":"User registered successfully.","timestamp":"2024-04-10T10:02:41.962Z"}
+{"level":"info","message":"Welcome email sent.","timestamp":"2024-04-10T10:02:42.634Z"}
+{"level":"info","message":"User with email bitztechdev@gmail.com authenticated successfully.","timestamp":"2024-04-10T10:04:45.282Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:05:23.732Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:05:23.736Z"}
+{"level":"info","message":"Fetching user information for user with ID: 25","timestamp":"2024-04-10T10:05:23.737Z"}
+{"level":"info","message":"User information fetched successfully for user with ID: 25","timestamp":"2024-04-10T10:05:24.423Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:09:46.371Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:09:46.375Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:09:46.378Z"}
+{"level":"info","message":"User ID: 25","timestamp":"2024-04-10T10:09:47.318Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztech-dev\",\"fullname\":\"BitzTech Dev\",\"email\":\"bitztech@gmail.com\",\"currentPassword\":\"bitztechdev1210\",\"newPassword\":\"bitz1210\"}","timestamp":"2024-04-10T10:09:47.319Z"}
+{"level":"info","message":"Password updated successfully.","timestamp":"2024-04-10T10:09:47.667Z"}
+{"level":"error","message":"Error updating the user profile:","timestamp":"2024-04-10T10:09:49.987Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:17:17.779Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:17:17.788Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:17:17.792Z"}
+{"level":"info","message":"User ID: 25","timestamp":"2024-04-10T10:17:18.236Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztech-dev\",\"fullname\":\"BitzTech Dev\",\"email\":\"bitztech@gmail.com\",\"currentPassword\":\"bitztechdev1210\",\"newPassword\":\"bitz1210\"}","timestamp":"2024-04-10T10:17:18.237Z"}
+{"level":"warn","message":"Incorrect current password.","timestamp":"2024-04-10T10:17:18.412Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:17:56.157Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:17:56.160Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:17:56.161Z"}
+{"level":"info","message":"User ID: 25","timestamp":"2024-04-10T10:17:56.627Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztech-dev\",\"fullname\":\"BitzTech Dev\",\"email\":\"bitztech@gmail.com\",\"currentPassword\":\"bitz1210\",\"newPassword\":\"\"}","timestamp":"2024-04-10T10:17:56.629Z"}
+{"level":"error","message":"Error updating the user profile:","timestamp":"2024-04-10T10:17:59.034Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:22:18.541Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:22:18.544Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:22:18.545Z"}
+{"level":"info","message":"User ID: 25","timestamp":"2024-04-10T10:22:19.015Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztech-dev\",\"fullname\":\"BitzTech Dev\",\"email\":\"bitztech@gmail.com\",\"currentPassword\":\"bitz1210\",\"newPassword\":\"\"}","timestamp":"2024-04-10T10:22:19.016Z"}
+{"level":"error","message":"Error updating the user profile:","timestamp":"2024-04-10T10:22:20.410Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:22:32.758Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:22:32.759Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:22:32.760Z"}
+{"level":"info","message":"User ID: 25","timestamp":"2024-04-10T10:22:33.201Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztech-dev\",\"fullname\":\"BitzTech Dev\",\"email\":\"bitztech@gmail.com\",\"currentPassword\":\"bitz1210\",\"newPassword\":\"\"}","timestamp":"2024-04-10T10:22:33.202Z"}
+{"level":"error","message":"Error updating the user profile:","timestamp":"2024-04-10T10:22:33.491Z"}
+{"level":"info","message":"Registering user: bitztech-dev, BitzTech Dev, bitztechdev@gmail.com","timestamp":"2024-04-10T10:25:10.762Z"}
+{"level":"info","message":"User registered successfully.","timestamp":"2024-04-10T10:25:10.950Z"}
+{"level":"info","message":"Welcome email sent.","timestamp":"2024-04-10T10:25:12.351Z"}
+{"level":"info","message":"User with email bitztechdev@gmail.com authenticated successfully.","timestamp":"2024-04-10T10:25:37.663Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:27:07.104Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2024-04-10T10:27:07.105Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:27:16.881Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:27:16.884Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:27:16.885Z"}
+{"level":"info","message":"User ID: 26","timestamp":"2024-04-10T10:27:17.362Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztechdev\",\"fullname\":\"Bitz Tech dev\",\"email\":\"bitztechdev@gmail.com\",\"currentPassword\":\"bitztech1210\",\"newPassword\":\"\"}","timestamp":"2024-04-10T10:27:17.363Z"}
+{"level":"warn","message":"Incorrect current password.","timestamp":"2024-04-10T10:27:17.540Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:27:36.949Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:27:36.951Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:27:36.952Z"}
+{"level":"info","message":"User ID: 26","timestamp":"2024-04-10T10:27:37.414Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztechdev\",\"fullname\":\"Bitz Tech dev\",\"email\":\"bitztechdev@gmail.com\",\"currentPassword\":\"bitztechdev1210\",\"newPassword\":\"\"}","timestamp":"2024-04-10T10:27:37.415Z"}
+{"level":"info","message":"User profile updated successfully.","timestamp":"2024-04-10T10:27:37.767Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:33:19.834Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:33:19.838Z"}
+{"level":"info","message":"Updating user profile.","timestamp":"2024-04-10T10:33:19.839Z"}
+{"level":"info","message":"User ID: 26","timestamp":"2024-04-10T10:33:20.272Z"}
+{"level":"info","message":"Update data received: {\"username\":\"bitztechdev\",\"fullname\":\"Bitz Tech dev\",\"email\":\"bitztechdev@gmail.com\",\"currentPassword\":\"bitztechdev1210\",\"newPassword\":\"\"}","timestamp":"2024-04-10T10:33:20.273Z"}
+{"level":"info","message":"Profile picture uploaded successfully.","timestamp":"2024-04-10T10:33:22.936Z"}
+{"level":"info","message":"User profile updated successfully.","timestamp":"2024-04-10T10:33:23.003Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:36:00.867Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2024-04-10T10:36:00.869Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:36:35.799Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:36:35.802Z"}
+{"level":"info","message":"Updating course.","timestamp":"2024-04-10T10:36:35.804Z"}
+{"level":"warn","message":"User does not have permission to update courses.","timestamp":"2024-04-10T10:36:36.443Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:38:37.444Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:38:37.448Z"}
+{"level":"info","message":"Creating new course.","timestamp":"2024-04-10T10:38:37.452Z"}
+{"level":"warn","message":"User does not have permission to create a course.","timestamp":"2024-04-10T10:38:38.546Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:39:32.013Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:39:32.015Z"}
+{"level":"info","message":"Assigning admin role for user: bitztechdev","timestamp":"2024-04-10T10:39:32.016Z"}
+{"level":"info","message":"Admin role assigned successfully for user: bitztechdev","timestamp":"2024-04-10T10:39:32.760Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:40:19.708Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:40:19.710Z"}
+{"level":"info","message":"Creating new course.","timestamp":"2024-04-10T10:40:19.711Z"}
+{"level":"info","message":"Course created successfully.","timestamp":"2024-04-10T10:40:20.436Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:42:33.800Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:42:33.802Z"}
+{"level":"info","message":"Updating course.","timestamp":"2024-04-10T10:42:33.805Z"}
+{"level":"info","message":"Course updated successfully.","timestamp":"2024-04-10T10:42:34.510Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:43:06.785Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:43:06.787Z"}
+{"level":"info","message":"Creating new course.","timestamp":"2024-04-10T10:43:06.788Z"}
+{"level":"info","message":"Course created successfully.","timestamp":"2024-04-10T10:43:07.488Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:43:36.797Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2024-04-10T10:43:36.799Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:43:58.107Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:43:58.110Z"}
+{"level":"info","message":"Deleting course.","timestamp":"2024-04-10T10:43:58.610Z"}
+{"level":"info","message":"Course deleted successfully.","timestamp":"2024-04-10T10:43:58.973Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:44:08.446Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:44:08.450Z"}
+{"level":"info","message":"Courses fetched successfully.","timestamp":"2024-04-10T10:44:08.641Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:44:44.048Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:44:44.049Z"}
+{"level":"info","message":"Courses fetched successfully.","timestamp":"2024-04-10T10:44:44.666Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:45:20.826Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2024-04-10T10:45:20.828Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:45:29.025Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:45:29.027Z"}
+{"level":"info","message":"Courses fetched successfully.","timestamp":"2024-04-10T10:45:29.642Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:45:45.602Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:45:45.605Z"}
+{"level":"info","message":"Courses fetched successfully.","timestamp":"2024-04-10T10:45:46.260Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:46:08.043Z"}
+{"level":"error","message":"Token verification failed:","timestamp":"2024-04-10T10:46:08.045Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:46:15.797Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:46:15.801Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:46:22.949Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:46:22.951Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:47:04.349Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:47:04.350Z"}
+{"level":"info","message":"Verifying token.","timestamp":"2024-04-10T10:47:04.351Z"}
+{"level":"info","message":"Token verification successful.","timestamp":"2024-04-10T10:47:04.354Z"}
+{"level":"info","message":"Enrolling courses for user 26","timestamp":"2024-04-10T10:47:04.814Z"}
+{"level":"info","message":"Sending enrollment email to bitztechdev@gmail.com","timestamp":"2024-04-10T10:47:05.293Z"}
+{"level":"info","message":"Enrollment Successful.","timestamp":"2024-04-10T10:47:05.896Z"}

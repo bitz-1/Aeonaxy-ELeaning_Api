@@ -8,7 +8,7 @@ router.get('/courses',getCoursesAll);
 
 router.get('/courses/course',getCourseById);
 
-router.post('/courses',createCourse);
+router.post('/courses/create',createCourse);
 
 router.put('/courses/:id',updateCourse);
 
