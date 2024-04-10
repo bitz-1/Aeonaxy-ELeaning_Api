@@ -75,3 +75,4 @@ The Aeonaxy project aims to develop the backend API for an E-Learning platform. 
 ---
 
 This README provides an overview of the Aeonaxy E-Learning Platform API, including the project structure, tech stack, API endpoints, and usage instructions. For more detailed information, please refer to the project files and codebase.
+contact me - https://www.bitzdev.tech/
